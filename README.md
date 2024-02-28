@@ -1,2 +1,3 @@
-# anidex-github
- A place to find your next anime binge!
+A place where you can find your next anime binge!
+
+link: https://anidex-fe.netlify.app/

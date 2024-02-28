@@ -1,0 +1,41 @@
+.navigation > nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 0em 0em;
+
+    color: var(--cPalette-1);
+    border-bottom: 1px solid var(--cPalette-3);
+    background-color: var(--cPalette-3);
+}
+
+.navigation > nav > .site-title {
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+
+    color: var(--cPalette-1);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation > nav > .nav-buttons {
+    display: flex;
+    gap: 2em;
+    margin-right: 2em;
+
+    font-size: 1.1rem;
+}
+
+.navigation > nav > .nav-buttons > a {
+    text-decoration: none;
+    color: var(--cPalette-1);
+
+    transition: all 500ms;
+}
+
+.navigation > nav > .nav-buttons > a:hover {
+    color: var(--cPalette-2);
+}

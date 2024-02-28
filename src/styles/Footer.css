@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    /* position: absolute;
+    bottom: 0px; */
+
+    background-color: var(--cPalette-3);
+    color: var(--cPalette-1);
+    font-size: 1.1rem;
+    border-top: 1px solid var(--cPalette-3);
+}
+
+footer > p {
+    padding: 1em 0em;
+}

@@ -1,0 +1,41 @@
+:root {
+
+  --cPalette-4: #2B2A4C;
+  --cPalette-3: #B31312;
+  --cPalette-2: #EA906C;
+  --cPalette-1: #EEE2DE;
+
+  --bg-3: #232D3F;
+  --bg-4: #0F0F0F;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+
+  overflow-x: hidden;
+
+  background-color: var(--bg-3);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width:0.2em;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--cPalette-3);
+  border-radius: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
